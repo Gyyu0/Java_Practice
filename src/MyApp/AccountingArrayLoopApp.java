@@ -25,10 +25,8 @@ public class AccountingArrayLoopApp {
         dividendRates[1] = 0.3;
         dividendRates[2] = 0.2;
         
-        int i = 0;
-        while(i < dividendRates.length) {
+        for(int i = 0; i < dividendRates.length; i++) {
         	System.out.println("Dividend : " + (income * dividendRates[i]) );
-        	i = i + 1;
         }
         
         
